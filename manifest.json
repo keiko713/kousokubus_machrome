@@ -1,6 +1,6 @@
 {
   "name": "Kousokubus Machrome",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "description": "このextensionを追加することで、高速バスネット (https://www.kousokubus.net/PC/) のページをMac OS X + Google Chrome上でもひと通り動くようにします。",
   "icons": {
