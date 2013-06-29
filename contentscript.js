@@ -1,4 +1,4 @@
-console.log('=== Kousokubus Machrome is workingi in background ===');
+console.log('=== Kousokubus Machrome 1.2 is workingi in background ===');
 
 /*----------------
  for input element
@@ -20,6 +20,17 @@ $('select').each(function(idx) {
 // if some option is clicked, the value should change
 $('select').click(function(e) {
   $(this).val(e.target.value);
+});
+
+/*------------------
+  for buttons of
+  availability and prices
+  ------------------*/
+
+// Chrome doesn't show multi lines in button (for some reason)
+$('td > input[type=submit]').each(function() {
+  var availability = $(this).val();
+  $(this).parent().append('<small>' + availability + '</small>');
 });
 
 /*----------------
