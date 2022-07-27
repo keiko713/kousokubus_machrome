@@ -1,3 +1,5 @@
+Note: このExtensionのサポートは終了し、Chrome Web Storeからは現在削除されています。
+
 Kousokubus Machrome
 ===================
 
